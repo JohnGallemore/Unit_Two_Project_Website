@@ -1,14 +1,31 @@
-.center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+.container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: white;
+    justify-content: space-between;
+    border-color: black;
+    border-width: 3px;
+    max-width: fit-content;
+    width: auto;
+    margin-inline: auto;
 }
 
-img{
-    width: 50%;
-    object-fit: cover;
-    padding-bottom: 2rem;
+.content {
+    width: 48%;
+    margin-right: 2%;
+}
+
+.image {
+    width: 48%;
+    text-align: center;
+}
+
+.image img {
+    max-width: 50%;
+    height: auto;
 }
 
 html, body{
@@ -25,9 +42,9 @@ header {
 }
 
 p1{
-    font-size: 35px;
+    font-size: 20px;
     margin-top: auto;
     margin-bottom: auto;
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
