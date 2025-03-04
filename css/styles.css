@@ -21,7 +21,7 @@
 }
 
 .image {
-    width: 48%;
+    width: 60%;
     text-align: center;
 }
 
@@ -47,6 +47,10 @@ nav a{
     color: rgb(255, 255, 255);
     margin: 0 15px;
     text-decoration: none;
+}
+
+h2{
+    color: black
 }
 
 p1{
