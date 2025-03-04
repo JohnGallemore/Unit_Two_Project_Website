@@ -1,8 +1,4 @@
-nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-}
+
 
 .container {
     display: flex;
@@ -45,6 +41,12 @@ header {
     color: white;
     padding: 1em 0;
     text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
 }
 
 p1{
