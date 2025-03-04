@@ -26,8 +26,9 @@
 }
 
 .image img {
-    max-width: 50%;
-    height: auto;
+    max-width: 100%;
+    min-height: 10%;
+    height:auto;
 }
 
 html, body{
